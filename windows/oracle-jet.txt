@@ -1,0 +1,13 @@
+http://www.oracle.com/webfolder/technetwork/jet/globalExamples.html
+
+Installing and creating your first Oracle JET app is as simple as 1-2-3
+
+    npm install -g @oracle/ojet-cli
+
+-> above did not work on windows7, already had node installed via chocolaty package manager. hence used:
+
+npm install -g oracle/ojet-cli
+
+    ojet create ojet-demo --template=navdrawer
+    cd ojet-demo
+    ojet serve
