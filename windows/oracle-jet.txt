@@ -6,7 +6,17 @@ Installing and creating your first Oracle JET app is as simple as 1-2-3
 
 -> above did not work on windows7, already had node installed via chocolaty package manager. hence used:
 
-npm install -g oracle/ojet-cli
+PS E:\Learning\oracle-jet> npm install -g @oracle/ojet-cli
+Unrecognized token in source text.
+At line:1 char:16
++ npm install -g  <<<< @oracle/ojet-cli
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+
+-> referred: http://sabirasworld.blogspot.in/2011/08/unrecognized-token-in-source-text.html
+try below added backtick ` before @ sign
+
+npm install -g `@oracle/ojet-cli
 
     ojet create ojet-demo --template=navdrawer
     cd ojet-demo
