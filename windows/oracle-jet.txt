@@ -18,6 +18,15 @@ try below added backtick ` before @ sign
 
 npm install -g `@oracle/ojet-cli
 
+Output
+_-----------------------------
+PS E:\Learning\oracle-jet> npm install -g `@oracle/ojet-cli
+C:\Users\ABHISHEK\AppData\Roaming\npm\ojet -> C:\Users\ABHISHEK\AppData\Roaming\npm\node_modules\@oracle\ojet-cli\ojet.j
+s
++ @oracle/ojet-cli@5.0.0
+removed 3 packages and updated 3 packages in 79.671s
+----------------------------------------
+
     ojet create ojet-demo --template=navdrawer
     cd ojet-demo
     ojet serve
